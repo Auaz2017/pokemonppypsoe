@@ -1,26 +1,27 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
 }
 header{
     padding-top: 20px;
+    
+}
+.horizontal-gradient {
+  background: linear-gradient(to right, red, blue);
 }
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
-  background-image: url(img/pokeball.png);
-  background-size: 50% 100%;
   color: white;
-  text-shadow: 2px 2px 8px black;
+  text-shadow: 4px 4px 8px black;
+  border-radius:20px 20px 0 0 ;
 }
 .header h1 {
   font-size: 50px;
+  
 }
 .topnav {
   overflow: hidden;
-  background-color: #82257A ;
+  background: linear-gradient(to right, red, blue);
 }
 .topnav a {
   float: left;
@@ -31,10 +32,12 @@ header{
   text-decoration: none;
 }
 .topnav a:hover:not( .active) {
-  background-color: #F372E8  ;
+  background: whitesmoke ;
   color: black;
+   
 }
-.active{background-color: #340E30 ;
+.active{
+  background-color: #000000 ;
 }
 .leftcolumn {   
   float: left;
@@ -48,7 +51,7 @@ header{
 .crd {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
+  
 }
 .row::after {
   content: "";
@@ -57,11 +60,11 @@ header{
 }
 body{
   margin: 5% 20% 5% 20%;
-  background-image: url("img/imagenfondo.jpg");
-  background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-    background-size: 100% 100%;
-    color: black;
-    font-family: Arial;
+  border-radius: 20px;
+  background-image: url("img/patronfondo.jpg");
+  background-size: 50%;
+  background-repeat: repeat;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  
 }
