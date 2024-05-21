@@ -7,11 +7,10 @@ header{
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
-  background-image: url(img/pokeball.png);
-  background-size: 50% 100%;
-  color: white;
   text-shadow: 2px 2px 8px black;
+}
+.horizontal-gradient {
+  background: linear-gradient(to right, red, blue);
 }
 .header h1 {
   font-size: 50px;
@@ -42,7 +41,7 @@ header{
 .crd {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
+  
 }
 .row::after {
   content: "";
@@ -107,15 +106,13 @@ header{
   vertical-align: middle;
 }
 body {
-  background: #24282f;
-  font-family: 'Alegreya Sans';
   margin: 5% 20% 5% 20%;
-  background-image: url("img/imagenfondo.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  background-size: 100% 100%;
+  border-radius: 20px;
+  background-image: url("img/patronfondo.jpg");
+  background-size: 50%;
+  background-repeat: repeat;
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 
 }
 .wrapper {
@@ -144,6 +141,7 @@ body {
 .cards,
 .news {
   flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 .cards .card,
 .news .card {
