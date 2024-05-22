@@ -23,6 +23,12 @@
 	
 <div class="leftcolumn">
 	<div class="crd" style="border-radius: 0 0 20px 20px">
+		<p>El pokemon del día es: </p>
+		<p id="demo"></p>
+		<script>
+		document.getElementById("demo").innerHTML =
+		Math.floor(Math.random() * 152);
+		</script>
 			<div class="cards">
 				
 				<figure class="card"><img src="img/1.png"/><figcaption><a href="p1.html">Bulbasaur</a></figcaption></figure>
