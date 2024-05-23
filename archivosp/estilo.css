@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    padding-top: 20px;
+}
+.horizontal-gradient {
+  background: linear-gradient(to right, red, blue);
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 8px black;
+}
+.header h1 {
+  font-size: 50px;
+  
+}
+.topnav {
+  overflow: hidden;
+  background-color: #82257A ;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover:not( .active) {
+  background-color: #F372E8  ;
+  color: black;
+}
+.active{background-color: #340E30 ;
+}
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.crd {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+  margin: 5% 20% 5% 20%;
+  background-image: url("img/patronfondo.png");
+  background-repeat: repeat;
+    background-attachment: fixed;  
+    color: black;
+    font-family: Arial;
+}
